@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Range TextArea Form validation</title>
+  </head>
+  <body>
+    <form action="hakiiiii">
+      <h1>Range</h1>
+
+      <p>Guess Popularity of OnePeice</p>
+      <label for="popularity">Popularity</label>
+      <input
+        type="range"
+        name="popularitymeter"
+        id="populariy"
+        min="0"
+        max="100"
+        value="75"
+      />
+      <br />
+
+      <h1>Number Input</h1>
+      <label for="num">Enter a number</label>
+      <input
+        type="number"
+        placeholder="Enter a Number"
+        min="1"
+        max="100"
+        step="3"
+        name="Number"
+      />
+
+      <h1>TextArea</h1>
+      <label for="request">Write About your Favarote Arc</label>
+      <textarea
+        name="Request"
+        id="request"
+        placeholder="Write here"
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <br />
+      <button>Submit</button>
+    </form>
+    <br />
+    <form action="/cascadia">
+      <h1>Form Validation</h1>
+      <label for="first">First Name</label>
+      <input type="text" name="firstname" id="first" required />
+      <p>
+        <label for="username">UserName</label>
+        <input type="text" name="username" id="username" minlength="3"
+        maxlength="15" required / >
+      </p>
+
+      <p>
+        <!-- <input type="email"> -->
+        <input type="url" />
+      </p>
+      <p>
+        <button>Submit</button>
+      </p>
+    </form>
+  </body>
+</html>

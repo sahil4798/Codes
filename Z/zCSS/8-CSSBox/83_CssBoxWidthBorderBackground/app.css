@@ -1,0 +1,31 @@
+div {
+  width: 300px;
+  height: 250px;
+  /* background-color: rgb(180, 235, 235); */
+}
+
+h1 {
+  background-color: bisque;
+}
+
+#first {
+  background-color: rgb(222, 254, 254);
+  border-color: rgb(201, 205, 205);
+  border-width: 5px;
+  border-style: solid;
+}
+
+#second {
+  background-color: rgb(165, 241, 241);
+  border-color: rgb(92, 173, 173);
+  border-width: 5px;
+  /* box-sizing: border-box; */
+  border-style: solid;
+  border-left-style: dashed;
+}
+#third {
+  background-color: rgb(82, 237, 237);
+  border: 5px solid rgb(58, 83, 83);
+  border-left-width: 10px;
+  border-radius: 10%;
+}

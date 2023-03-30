@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  text-decoration: green underline;
+  letter-spacing: 15px;
+  font-weight: 200;
+  font-size: 100px;
+  font-family: Times New Roman, papyrus;
+  /* stand_alone font */
+  font-family: serif;
+  /* contains varios fonts style */
+}
+
+h2 {
+  text-decoration: rgb(224, 84, 84) underline;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 2;
+}

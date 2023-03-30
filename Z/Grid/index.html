@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-CSS</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<style>
+    .wrapper {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        /* grid-template-columns: 30% 40% 30%; */
+        /* grid-template-columns: 6fr 4fr; */
+        /* grid-template-columns: repeat(2, 3fr 2fr); */
+        grid-row-gap: 1em;
+        grid-column-gap: 1em;
+        /* grid-gap: 1em; */
+
+    }
+
+    .wrapper div {
+        background-color: #ccc;
+        padding: 1em;
+    }
+
+    .wrapper div:nth-of-type(odd) {
+        background-color: #ddd;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nam tempora earum voluptates non fugit
+            fugiat adipisci accusantium repellat! Ipsa vero vel eos rem sapiente explicabo asperiores eius labore
+            dolorem expedita. Blanditiis enim molestiae repellat magnam fuga unde cum modi alias. Aliquam necessitatibus
+            nulla quod quo voluptate molestias, autem dicta repellat et sunt consequatur magni illo omnis error velit ab
+            deserunt? Praesentium expedita consequatur dolorum tempore fuga. Sequi doloribus blanditiis, laudantium
+            voluptatem error eius vitae. Nihil vero quidem reiciendis animi?
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem debitis dicta quis reprehenderit
+            tenetur earum sint! Dolorum molestiae blanditiis, quae asperiores earum, vero reiciendis laudantium quam,
+            debitis rerum repellat possimus.</div>
+
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nam tempora earum voluptates non fugit
+            fugiat adipisci accusantium repellat! Ipsa vero vel eos rem sapiente explicabo asperiores eius labore
+            dolorem expedita. Blanditiis enim molestiae repellat magnam fuga unde cum modi alias. Aliquam necessitatibus
+            nulla quod quo voluptate molestias, autem dicta repellat et sunt consequatur magni illo omnis error velit ab
+            deserunt? Praesentium expedita consequatur dolorum tempore fuga. Sequi doloribus blanditiis, laudantium
+            voluptatem error eius vitae. Nihil vero quidem reiciendis animi?
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem debitis dicta quis reprehenderit
+            tenetur earum sint! Dolorum molestiae blanditiis, quae asperiores earum, vero reiciendis laudantium quam,
+            debitis rerum repellat possimus.</div>
+    </div>
+    </div>
+</body>
+
+</html>

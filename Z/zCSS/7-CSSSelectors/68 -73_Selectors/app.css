@@ -1,0 +1,48 @@
+/* this is Universal Selector */
+/* * {
+  background-color: rgb(199, 249, 249);
+} */
+
+body {
+  background-color: #8ecae6;
+}
+
+/* This is a Element Selector. */
+button {
+  color: rgb(133, 41, 225);
+  background-color: #ffb703;
+}
+
+h1,
+h2 {
+  color: #e63946;
+}
+
+/* This is called Id selector */
+#signup {
+  background-color: #dda15e;
+  color: aqua;
+}
+
+span {
+  color: #84a98c;
+}
+
+/* This is called Class selector */
+.tag {
+  color: blueviolet;
+  background-color: yellow;
+  font-size: 19px;
+}
+
+/* This is called Descendant Selector */
+/* span a {
+  color: #84a98c;
+} */
+.pool a {
+  color: #84a98c;
+}
+
+footer a {
+  color: #7f4f24;
+}

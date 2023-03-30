@@ -1,0 +1,22 @@
+body {
+  color: aqua;
+}
+h1 {
+  color: blue;
+}
+
+.first {
+  color: purple;
+}
+
+p {
+  color: red;
+}
+
+form {
+  color: yellowgreen;
+}
+
+button {
+  color: inherit;
+}

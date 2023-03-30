@@ -1,0 +1,21 @@
+h2 {
+  color: rebeccapurple;
+  background-color: aqua;
+  text-decoration: dashed;
+}
+
+button {
+  color: red;
+  background: yellow;
+}
+
+p {
+  color: lawngreen;
+  background: pink;
+}
+h3 {
+  color: rgb(187, 33, 84);
+}
+h4 {
+  color: #fe11c7;
+}

@@ -1,0 +1,21 @@
+body {
+  font-family: Robota, sans-serif;
+}
+h1,
+h2 {
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+}
+.main {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+}

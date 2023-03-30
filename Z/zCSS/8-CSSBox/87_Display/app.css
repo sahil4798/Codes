@@ -1,0 +1,50 @@
+/* Senario-1 */
+/* h1 {
+  background-color: aqua;
+} */
+
+/* span {
+  background-color: bisque;
+} */
+
+/* Senario-2 */
+/* Just playing with property of Display i.e inline , block, inline-block */
+/* h1 {
+  background-color: aqua;
+  display: inline;
+}
+span {
+  background-color: bisque;
+  display: block;
+} */
+
+/* Senario-3 */
+span {
+  background-color: aqua;
+  /* respected */
+  border: 5px solid darkslateblue;
+  /* respected */
+  width: 100px;
+  /* Not Respected */
+  margin: 50px;
+  /* /Improper */
+  padding: 20px;
+  /* Improper */
+}
+h1 {
+  background-color: aqua;
+  border: 5px solid darkslateblue;
+  width: 300px;
+  margin: 50px;
+  padding: 20px;
+  display: none;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(191, 164, 217);
+  border: 5px solid rgb(56, 1, 107);
+  display: inline-block;
+  margin: 50px;
+}

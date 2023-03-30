@@ -1,0 +1,80 @@
+/* this is Universal Selector */
+/* * {
+  background-color: rgb(199, 249, 249);
+} */
+
+body {
+  background-color: #8ecae6;
+}
+
+/* This is a Element Selector. */
+button {
+  color: rgb(133, 41, 225);
+  background-color: #ffb703;
+}
+
+h1,
+h2 {
+  color: #e63946;
+}
+
+/* This is called Id selector */
+#signup {
+  background-color: #dda15e;
+  color: aqua;
+}
+
+span {
+  color: #84a98c;
+}
+
+/* This is called Class selector */
+.tag {
+  color: blueviolet;
+  background-color: yellow;
+  font-size: 19px;
+}
+
+/* This is called Descendant Selector */
+/* span a {
+    color: #84a98c;
+  } */
+.pool a {
+  color: #84a98c;
+}
+
+footer a {
+  color: #7f4f24;
+}
+/* *********************************************************************************** */
+
+/* Non-Commmon Selectors */
+
+/* Adjacent Selector */
+input + button {
+  background-color: pink;
+}
+h2 + button {
+  background-color: aquamarine;
+  font-size: 20px;
+}
+
+/* Direct Child Selector */
+footer > a {
+  color: rgb(89, 197, 89);
+}
+
+/* Attribute Selector */
+input[type="password"] {
+  color: #ffb703;
+  background-color: #cef0d9;
+}
+
+section[class="pool"] {
+  background-color: #fb6f92;
+}
+
+a[href*="Help"] {
+  color: rgb(241, 237, 102);
+  font: weight 19px;
+}

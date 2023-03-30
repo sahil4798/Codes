@@ -1,0 +1,41 @@
+section {
+  background-color: rgb(73, 73, 240);
+  width: 800px;
+  height: 800px;
+}
+div {
+  background-color: rgb(81, 170, 234);
+  width: 70%;
+  height: 50%;
+}
+
+h1 {
+  /* background-color: aquamarine; */
+  font-size: 40px;
+  border: 5px solid black;
+  line-height: 200%;
+}
+
+article {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 1.2em;
+}
+button {
+  font-size: 2em;
+  background-color: rgb(70, 193, 218);
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 0em 2em;
+}
+/* Problem Here: Why the size of last button is incressed insted of default */
